@@ -1,0 +1,15 @@
+{
+	"manifest_version":3,
+	"name": "StyleTester",
+	"version": "0",
+	"permissions":[
+		"storage"
+	],
+	"action":{
+		"default_title": "StyleTesterPad",
+		"default_popup": "popup.html"
+	},
+	"background":{
+		"script": ["background.js"]
+	}
+}

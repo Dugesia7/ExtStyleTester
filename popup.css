@@ -1,0 +1,10 @@
+body{
+	padding:none;
+	margin:none;
+	color: white;
+	background-color: #666666;
+}
+#wrapper{
+	color: inherit;
+	background-color: inherit;
+}
