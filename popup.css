@@ -1,10 +1,30 @@
 body{
-	padding:none;
-	margin:none;
+	padding: 0;
+	margin: 0;
 	color: white;
 	background-color: #666666;
 }
 #wrapper{
 	color: inherit;
 	background-color: inherit;
+	text-align: left;
+	display: table;
+	border-spacing: 0;
+}
+#edge_r,#edge_b{
+	width: 100%;
+	height: 100%;
+	display: table-cell;
+}
+#edge_r{
+	cursor: ew-resize;
+}
+#edge_b{
+	cursor: ns-resize;
+}
+#corner{
+	width: 1em;
+	height: 1em;
+	cursor: nesw-resize;
+	/*cornerだけdisplay: table-cellをなくすと何故かうまくいく*/
 }
