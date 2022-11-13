@@ -6,10 +6,10 @@ $(window).on("load",function(){
 			padElem.innerText=value["padContent"];
 			padElem.style.width=value.width;
 			padElem.style.height=value.height;
-			$('#style').text($('#wrapper').text());
+			$('#style').text($('#resizer').text());
 		});
 	$('#pad').on("blur keyup copy paste cut mouseup",function(){
-		$('#style').text($('#wrapper').text());
+		$('#style').text($('#resizer').text());
 		chrome.storage.local.set({"padContent":padElem.innerText,"width":padElem.style.width,"height":padElem.style.height});
 	});
 	//resizerW

@@ -4,7 +4,7 @@ body{
 	color: white;
 	background-color: #666666;
 }
-#wrapper{
+#resizer{
 	color: inherit;
 	background-color: inherit;
 	text-align: left;
@@ -27,4 +27,8 @@ body{
 	height: 1em;
 	cursor: nesw-resize;
 	/*cornerだけdisplay: table-cellをなくすと何故かうまくいく*/
+}
+#pad-wrapper{
+	display:table-cell;
+	padding-top:5px;
 }
