@@ -2,24 +2,18 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="popup.css">
+		<script src="resizer.js"></script>
 		<script src="jquery-3.6.1.slim.js"></script>
 		<script src="popup.js"></script>
 		<style id="style"></style>
 	</head>
 	<body>
-		<div id="resizer">
-			<div style="display: table-row;">
-				<div id="edge_r"></div>
-				<div id="pad-wrapper">
-					#pad {<br>
-					<div id="pad" contentEditable></div>
-					}
-				</div>
+		<resize-er>
+			<div id="pad-wrapper">
+				#pad {<br>
+				<div id="pad" contentEditable></div>
+				}
 			</div>
-			<div style="display: table-row;">
-				<div id="corner"></div>
-				<div id="edge_b"></div>
-			</div>
-		</div>
+		</resize-er>
 	</body>
 </html>
